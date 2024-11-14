@@ -1,0 +1,32 @@
+{
+  "name": "neon-02",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5174",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.116.0",
+    "@react-three/fiber": "^8.17.10",
+    "@use-gesture/react": "^10.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "postprocessing": "^6.36.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.170.0"
+  },
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
